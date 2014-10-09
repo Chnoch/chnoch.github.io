@@ -54,6 +54,10 @@ p {
   font-weight: bold;
   font-size: 13px;
 }
+
+.bigger {
+    font-size: 16px;
+}
 .bold a {
   text-decoration: none;
   color: #FFFFFF;
