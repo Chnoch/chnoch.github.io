@@ -474,6 +474,11 @@ label {
     background-color: #000000;
 }
 
+.content {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
 .content .document {
     margin-top: 20px;
 }
