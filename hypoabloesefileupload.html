@@ -13,7 +13,7 @@
     <link href="style/reset-min.css" rel="stylesheet" type="text/css"/>
     <link href="style/normalize.css" rel="stylesheet" type="text/css"/>
     <link href="assets/mediaelement/mediaelementplayer.min.css" rel="stylesheet"/>
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="style/alertify.core.css"/>
     <link rel="stylesheet" href="style/alertify.default.css"/>
@@ -192,18 +192,35 @@
                                 <a href="index.html" class="logout">Logout</a>
                             </div>
                         </div>
-
-
                     </div>
 
-                    <div class="tile detailpage-tile-5row2col brick  clear" data-blockid="0">
+                    <div class="tile detailpage-tile-5row2col brick mortgage clear" data-blockid="0">
+                        <h1>Unterlagen</h1>
 
                         <div class="content">
-                        <h1>Antrag erfolreich abgesendet</h1>
-                            <p>Vielen Dank für Ihren Antrag. Er ist erfolgreich bei uns eingegangen. Sobald wir den Vertrag erstellt haben, erscheint bei Ihnen im Dashboard unter "Aufgaben" die Möglichkeit, den Vertrag elektronisch oder per Post zu unterschreiben. Sie werden zusätzlich per E-Mail benachrichtigt.</p>
-                            <a class="button" href="dashboard_angebot.html">Zum Dashboard</a>
+                            Bitte reichen Sie die benötigten Dokumente hier online ein. Alternativ können Sie diese per Post senden.
+                            <form>
+
+                                <div class="password">
+                                    <label>Steuererklärung:</label>
+                                    <input type="file">
+                                </div>
+                                <div class="password">
+                                    <label>Gebäudeversicherungsausweis:</label>
+                                    <input type="file">
+                                </div>
+                                <div class="password">
+                                    <label>Anderes:</label>
+                                    <input type="file">
+                                </div>
+
+                            </form>
+
+                            <a class="button" href="dashboard_antrag.html">Dokumente hochladen</a>
+                            <a class="button">Ich sende die Dokumente per Post</a>
                         </div>
                     </div>
+
                 </div>
                 <!--end tile-container2-->
             </div>
@@ -223,7 +240,6 @@
 
     <div class="footer-main">
         <div id="tile-footer-container">
-
             <div class="brick footer-brick">
                 <ul class="footer-brick-list">
                     <li><a href="#">KONTAKT</a></li>
@@ -238,11 +254,9 @@
 
             <div class="brick footer-brick footer-consulting">
                 <p>Beratung</p>
-
                 <p>Tel. +41 62 835 77 77 </p>
 
                 <p>e-Banking Helpline</p>
-
                 <p>Tel. +41 62 835 77 99</p>
             </div>
 

@@ -1002,3 +1002,40 @@ div.contact {
     line-height: 20px;
     vertical-align: middle;
 }
+
+.modal {
+    width: 900px!important;
+    margin-left: -350px;
+}
+
+.modal-body {
+    max-height: 500px;
+    height: 500px;
+}
+
+.modal .left {
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+.modal .right {
+    width: 68%;
+    height: 100%;
+    float: right;
+    background-color: lightgray;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    margin: 20px;
+}
+
+.bottom input   {
+    width: 540px;
+}
+
+.right .entry {
+    padding: 10px;
+}

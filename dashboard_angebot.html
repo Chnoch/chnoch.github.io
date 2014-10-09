@@ -23,6 +23,8 @@
     <link href="style/main-responsive.css" rel="stylesheet"/>
     <link href="style/tipsy.css" rel="stylesheet"/>
 
+    <link href="assets/bootstrap/css/bootstrap-custom.css" rel="stylesheet"/>
+
     <script type="text/javascript" src="script/jquery.js"></script>
     <script type="text/javascript" src="script/jquery.cookie.js"></script>
     <script type="text/javascript" src="script/jquery.tipsy.js"></script>
@@ -32,6 +34,7 @@
     <script type="text/javascript" src="script/alertify.min.js"></script>
     <script type="text/javascript" src="script/underscore-min.js"></script>
     <script type="text/javascript" src="script/imagesloaded.pkgd.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
     <!--[if IE 8]>
     <script type="text/javascript" src="script/ie8_fix_maxwidth.js"></script>
     <![endif]-->
@@ -182,7 +185,9 @@
 <div class=" tile profile-dashboard brick blueblock">
     <div class="tile bank-tile profile register " style="margin-right:10px;" data-blockid="1">
         <h2><a href="settings.html">Eric Kindler</a></h2>
+
         <h3>Handels AG</h3>
+
         <div class="tile-option">
             <a href="index.html" class="logout">Abmelden</a>
         </div>
@@ -289,7 +294,8 @@
 
     <h2>Erinnerung</h2>
 
-    <div class="task"><a href="hypoabloeseauswahl.html">Ihre Hypothek läuft aus. Klicken Sie hier für ein Angebot zur Weiterführung Ihres Vertrages.</a></div>
+    <div class="task"><a href="hypoabloeseauswahl.html">Ihre Hypothek läuft aus. Klicken Sie hier für ein Angebot zur
+        Weiterführung Ihres Vertrages.</a></div>
 
     <div class="tile-option more">
         <a>mehr</a>
@@ -299,20 +305,27 @@
 
 
 <div class="tile brick  landscape-tile adviser" data-blockid="6">
-    <h2>People</h2>
+    <a data-toggle="modal" href="#kundenberater">
+        <h2>People</h2>
 
-    <div class="tile-desc-landscape-overlay colored-tile"></div>
-    <div class="tile-desc">
-        <h3>Christian P. Mueller</h3>
-        <div class="content">
-            Ihr Kundenberater
+        <div class="tile-desc-landscape-overlay colored-tile"></div>
+        <div class="tile-desc">
+            <h3>Christian P. Mueller</h3>
 
-            <div class="contact phone"><b>Telefon</b>: +41 31 012 34 56</div>
-            <div class="contact chats">Chat: online <div class="green-circle"></div></div>
-            <div class="contact videochat">Video Chat: online <div class="green-circle"></div> </div>
-            <div class="contact email">E-Mail senden</div>
+            <div class="content">
+                Ihr Kundenberater
+
+                <div class="contact phone"><b>Telefon</b>: +41 31 012 34 56</div>
+                <div class="contact chats">Chat: online
+                    <div class="green-circle"></div>
+                </div>
+                <div class="contact videochat">Video Chat: online
+                    <div class="green-circle"></div>
+                </div>
+                <div class="contact email">E-Mail senden</div>
+            </div>
         </div>
-    </div>
+    </a>
 </div>
 
 <div class="tile featured-tile brick unternehmertum" data-blockid="7">
@@ -488,14 +501,14 @@
 
 <!--<div class="tile landscape-tile brick unternehmerforum" data-blockid="15">-->
 
-    <!--<div class="option-wrapper">-->
-        <!--<ul class="option-table">-->
-            <!--<li class="bookmark-li"><a><span class="small-icon bookmark"></span></a></li>-->
-            <!--<li class="love-li"><span class="left-option">83</span> <span class="right-option"><a><span-->
-                    <!--class="small-icon love"></span></a></span></li>-->
-            <!--<li class="share-li bold"><p>12.5.2013 14:43</p></li>-->
-        <!--</ul>-->
-    <!--</div>-->
+<!--<div class="option-wrapper">-->
+<!--<ul class="option-table">-->
+<!--<li class="bookmark-li"><a><span class="small-icon bookmark"></span></a></li>-->
+<!--<li class="love-li"><span class="left-option">83</span> <span class="right-option"><a><span-->
+<!--class="small-icon love"></span></a></span></li>-->
+<!--<li class="share-li bold"><p>12.5.2013 14:43</p></li>-->
+<!--</ul>-->
+<!--</div>-->
 <!--</div>-->
 <div class="tile landscape-tile brick event" data-blockid="15">
 
@@ -628,9 +641,11 @@
 
             <div class="brick footer-brick footer-consulting">
                 <p>Beratung</p>
+
                 <p>Tel. +41 62 835 77 77 </p>
 
                 <p>e-Banking Helpline</p>
+
                 <p>Tel. +41 62 835 77 99</p>
             </div>
 
@@ -667,6 +682,45 @@
 <div id="chat" class="detail"></div>
 <div id="chat2" class="detail"></div>
 <div id="kube"><a><img src="img/backgrounds/kube.png"></a></div>
+
+<div id="kundenberater" class="modal hide fade">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Kundenberater</h3>
+    </div>
+    <div class="modal-body">
+        <div class="left">
+            <img src="img/backgrounds/berater.png">
+
+            <div class="contact">
+                <h3>Christian P. Mueller</h3>
+
+                <div class="contact phone"><b>Telefon</b>: +41 31 012 34 56</div>
+                <div class="contact chats"><b>Chat</b>: online
+                    <div class="green-circle"></div>
+                </div>
+                <div class="contact videochat"><b>Video Chat</b>: online
+                    <div class="green-circle"></div>
+                </div>
+                <div class="contact email"><a href="">E-Mail senden</a></div>
+            </div>
+
+        </div>
+
+        <div class="right">
+            <div class="entry">
+                <span class="bold">Kundenberater: </span> Guten Tag, wie kann ich Ihnen behilflich sein?
+            </div>
+
+            <div class="bottom">
+                <input type="text" placeholder="Bitte geben Sie hier Ihre Nachricht ein">
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="btn" data-dismiss="modal">Schliessen</a>
+    </div>
+</div>
 
 <script type="text/javascript" src="script/base.js"></script>
 <script type="text/javascript" src="script/snap.cust.js"></script>
