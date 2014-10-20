@@ -144,12 +144,32 @@
     <div id="search-block" class="header-block">
         <div class="header-search">
             <div>
-                <input type="text" value="Suchbegriff"/>
+                <input type="text"/>
                 <input type="submit" value="Suche"/>
             </div>
         </div>
+        <ul class="nav-menu">
+            <li><a>Hypothek verlängern</a></li>
+            <li><a>Konto eröffnen</a></li>
+            <li><a>Swift Code AKB</a></li>
+            <li><a>Geschäftsstellen</a></li>
+            <li><a>Karte sperren</a></li>
+            <li><a>Marktbericht</a></li>
+        </ul>
     </div>
     <div id="advice-block" class="header-block advice-img">
+        <div class="contact">Kontakt</div>
+        <div class="address">
+            Aargauische Kantonalbank<br/>
+            Bahnhofplatz 1<br/>
+            5001 Aarau
+        </div>
+        <div class="phone">
+            Telefon <br/> +41 62 835 77 77
+        </div>
+        <div class="helpline">
+            e-Banking Helpline <br/>+41 62 835 77 99
+        </div>
 
     </div>
 </div>
@@ -175,13 +195,13 @@
 
 <!-- Tiles part  -->
 <div class="container-fluid " role="main">
-<div class="row-fluid">
+<div class="row-fluid overview">
 <div id="tile-container" class="centered2">
 <div id="tile-container2">
 
 <!-- Banking tiles -->
 <!-- -->
-<div class=" tile profile-dashboard brick blueblock">
+<div class=" tile profile-dashboard brick blueblock no-background">
     <div class="tile bank-tile profile register " style="margin-right:10px;" data-blockid="1">
         <h2><a href="settings.html">Eric Kindler</a></h2>
         <h3>Handels AG</h3>
@@ -280,7 +300,6 @@
 
     <h2>Aufgaben</h2>
 
-    <!--<div class="firstLine task"><a href="unterschrift.html">Hypothekarvertrag unterschreiben</a></div>-->
     <div class="firstLine task">Im Moment sind keine Aufgaben vorhanden.</div>
 
     <div class="tile-option more">
@@ -321,7 +340,7 @@
 <div class="tile featured-tile brick unternehmertum" data-blockid="7">
     <div class="featured-content"></div>
 
-    <h1>Thema</h1>
+    <h1 class="black">Thema</h1>
 
     <div class="tile-desc-overlay"></div>
     <div class="tile-desc" style="padding-left:20px ! important;">
@@ -351,7 +370,7 @@
 
 <div class="tile brick products2" data-blockid="8">
 
-    <h2>Währungen</h2>
+    <h2 class="black">Währungen</h2>
 
     <div class="option-wrapper">
         <ul class="option-table">
@@ -366,60 +385,60 @@
 
 <!-- common tiles -->
 
-<div class="tile portrait-tile brick chefsache" data-blockid="9">
-    <div class="portrait-content"></div>
-    <h2>Firmen</h2>
+<!--<div class="tile portrait-tile brick chefsache" data-blockid="9">-->
+    <!--<div class="portrait-content"></div>-->
+    <!--<h2>Firmen</h2>-->
 
-    <div class="tile-desc-overlay"></div>
-    <div class="tile-desc">
-        <h3>Neuunternehmer</h3>
+    <!--<div class="tile-desc-overlay"></div>-->
+    <!--<div class="tile-desc">-->
+        <!--<h3>Neuunternehmer</h3>-->
 
-        <p>
-            Die Bank hilft Ihnen bei der Gründung Ihrer Firma und begleitet Sie kompetent auf Ihrem Weg in die
-            Selbständigkeit.</p>
-    </div>
+        <!--<p>-->
+            <!--Die Bank hilft Ihnen bei der Gründung Ihrer Firma und begleitet Sie kompetent auf Ihrem Weg in die-->
+            <!--Selbständigkeit.</p>-->
+    <!--</div>-->
 
-    <div class="option-wrapper">
-        <ul class="option-table">
-            <li class="bookmark-li"><a><span class="small-icon bookmark"></span></a></li>
-            <li class="love-li"><span class="left-option">83</span> <span class="right-option"><a><span
-                    class="small-icon love"></span></a></span></li>
-            <li class="eye-li"><span class="left-option">83</span> <span class="right-option"><a><span
-                    class="small-icon eye"></span></a></span></li>
-            <li class="chat-li"><span class="left-option">22</span> <span class="right-option"><a><span
-                    class="small-icon chat"></span></a></span></li>
-            <li class="share-li"><a><span class="small-icon share"></span></a></li>
-        </ul>
-    </div>
-</div>
+    <!--<div class="option-wrapper">-->
+        <!--<ul class="option-table">-->
+            <!--<li class="bookmark-li"><a><span class="small-icon bookmark"></span></a></li>-->
+            <!--<li class="love-li"><span class="left-option">83</span> <span class="right-option"><a><span-->
+                    <!--class="small-icon love"></span></a></span></li>-->
+            <!--<li class="eye-li"><span class="left-option">83</span> <span class="right-option"><a><span-->
+                    <!--class="small-icon eye"></span></a></span></li>-->
+            <!--<li class="chat-li"><span class="left-option">22</span> <span class="right-option"><a><span-->
+                    <!--class="small-icon chat"></span></a></span></li>-->
+            <!--<li class="share-li"><a><span class="small-icon share"></span></a></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</div>-->
 
-<div class="tile portrait-tile brick net" data-blockid="10">
-    <h2>product</h2>
+<!--<div class="tile portrait-tile brick net" data-blockid="10">-->
+    <!--<h2>product</h2>-->
 
-    <div class="tile-desc-overlay"></div>
-    <div class="tile-desc">
-        <h3>Bank Anlage und Vermögensplanung</h3>
+    <!--<div class="tile-desc-overlay"></div>-->
+    <!--<div class="tile-desc">-->
+        <!--<h3>Bank Anlage und Vermögensplanung</h3>-->
 
-        <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-    </div>
+        <!--<p>-->
+            <!--Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
+            <!--dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet-->
+            <!--clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.-->
+        <!--</p>-->
+    <!--</div>-->
 
-    <div class="option-wrapper">
-        <ul class="option-table">
-            <li class="bookmark-li"><a><span class="small-icon bookmark"></span></a></li>
-            <li class="love-li"><span class="left-option">83</span> <span class="right-option"><a><span
-                    class="small-icon love"></span></a></span></li>
-            <li class="eye-li"><span class="left-option">83</span> <span class="right-option"><a><span
-                    class="small-icon eye"></span></a></span></li>
-            <li class="chat-li"><span class="left-option">22</span> <span class="right-option"><a><span
-                    class="small-icon chat"></span></a></span></li>
-            <li class="share-li"><a><span class="small-icon share"></span></a></li>
-        </ul>
-    </div>
-</div>
+    <!--<div class="option-wrapper">-->
+        <!--<ul class="option-table">-->
+            <!--<li class="bookmark-li"><a><span class="small-icon bookmark"></span></a></li>-->
+            <!--<li class="love-li"><span class="left-option">83</span> <span class="right-option"><a><span-->
+                    <!--class="small-icon love"></span></a></span></li>-->
+            <!--<li class="eye-li"><span class="left-option">83</span> <span class="right-option"><a><span-->
+                    <!--class="small-icon eye"></span></a></span></li>-->
+            <!--<li class="chat-li"><span class="left-option">22</span> <span class="right-option"><a><span-->
+                    <!--class="small-icon chat"></span></a></span></li>-->
+            <!--<li class="share-li"><a><span class="small-icon share"></span></a></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</div>-->
 
 <div class="tile landscape-tile brick kredit detail2" data-blockid="11">
     <div class="landscape-content"></div>
@@ -445,7 +464,7 @@
 </div>
 
 <div class="tile landscape-tile brick exchange detail2" data-blockid="13">
-    <h2>Doc-Exchange</h2>
+    <h2 class="black">Doc-Exchange</h2>
 
     <div class="option-wrapper">
         <ul class="option-table">
@@ -457,37 +476,37 @@
     </div>
 </div>
 
-<div class="tile featured-tile brick feature" data-blockid="14">
+<!--<div class="tile featured-tile brick feature" data-blockid="14">-->
 
-    <h1><a href="lagebeurteilung.html">Marktberichte</a></h1>
+    <!--<h1><a href="lagebeurteilung.html">Marktberichte</a></h1>-->
 
-    <div class="tile-desc-overlay"></div>
-    <div class="tile-desc">
-        <a href="lagebeurteilung.html">
+    <!--<div class="tile-desc-overlay"></div>-->
+    <!--<div class="tile-desc">-->
+        <!--<a href="lagebeurteilung.html">-->
 
-            <h3>Volkswirtschaftliche Lagebeurteilung</h3>
+            <!--<h3>Volkswirtschaftliche Lagebeurteilung</h3>-->
 
-            <div class="content">
-                September 2014
-                Die aktuelle Einschätzung der zukünftigen Entwicklung in den wichtigsten Volkswirtschaften respektive an
-                den wichtigsten Finanzmärkten.
-            </div>
-        </a>
+            <!--<div class="content">-->
+                <!--September 2014-->
+                <!--Die aktuelle Einschätzung der zukünftigen Entwicklung in den wichtigsten Volkswirtschaften respektive an-->
+                <!--den wichtigsten Finanzmärkten.-->
+            <!--</div>-->
+        <!--</a>-->
 
-    </div>
+    <!--</div>-->
 
-    <div class="option-wrapper">
-        <ul class="option-table">
-            <li class="love-li"><a href="#"><span class="small-icon love"></span></a></li>
-            <li class="star-li"><a href="#"><span class="small-icon star inactive"></span></a></li>
-            <li class="eye-li"><span class="left-option">83</span> <span class="right-option"><a href="#"><span
-                    class="small-icon eye"></span></a></span></li>
-            <li class="chat-li"><span class="left-option">22</span> <span class="right-option"><a href="#"><span
-                    class="small-icon chat"></span></a></span></li>
-            <li class="share-li"><a href="#"><span class="small-icon share"></span></a></li>
-        </ul>
-    </div>
-</div>
+    <!--<div class="option-wrapper">-->
+        <!--<ul class="option-table">-->
+            <!--<li class="love-li"><a href="#"><span class="small-icon love"></span></a></li>-->
+            <!--<li class="star-li"><a href="#"><span class="small-icon star inactive"></span></a></li>-->
+            <!--<li class="eye-li"><span class="left-option">83</span> <span class="right-option"><a href="#"><span-->
+                    <!--class="small-icon eye"></span></a></span></li>-->
+            <!--<li class="chat-li"><span class="left-option">22</span> <span class="right-option"><a href="#"><span-->
+                    <!--class="small-icon chat"></span></a></span></li>-->
+            <!--<li class="share-li"><a href="#"><span class="small-icon share"></span></a></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</div>-->
 
 <!--<div class="tile landscape-tile brick unternehmerforum" data-blockid="15">-->
 
@@ -500,101 +519,101 @@
         <!--</ul>-->
     <!--</div>-->
 <!--</div>-->
-<div class="tile landscape-tile brick event" data-blockid="15">
+<!--<div class="tile landscape-tile brick event" data-blockid="15">-->
 
-    <h2>Event</h2>
+    <!--<h2>Event</h2>-->
 
-    <div class="tile-desc-landscape-overlay"></div>
+    <!--<div class="tile-desc-landscape-overlay"></div>-->
 
-    <div class="tile-desc">
-        <h2>Bühne</h2>
+    <!--<div class="tile-desc">-->
+        <!--<h2>Bühne</h2>-->
 
-        <div class="content">Auf der Bühne finden Sie - regelmässig wechselnd - Wissenswertes zum Marktgebiet der AKB.
-        </div>
-    </div>
+        <!--<div class="content">Auf der Bühne finden Sie - regelmässig wechselnd - Wissenswertes zum Marktgebiet der AKB.-->
+        <!--</div>-->
+    <!--</div>-->
 
-    <div class="option-wrapper">
-        <ul class="option-table">
-            <li class="love-li"><a href="#"><span class="small-icon love"></span></a></li>
-            <li class="star-li"><a href="#"><span class="small-icon star inactive"></span></a></li>
-            <li class="eye-li"><span class="left-option">83</span> <span class="right-option"><a href="#"><span
-                    class="small-icon eye"></span></a></span></li>
-            <li class="chat-li"><span class="left-option">22</span> <span class="right-option"><a href="#"><span
-                    class="small-icon chat"></span></a></span></li>
-            <li class="share-li"><a href="#"><span class="small-icon share"></span></a></li>
-        </ul>
-    </div>
-</div>
-
-
-<div class="tile brick chefsache3 detail" data-blockid="16">
-
-    <h2>Firmen</h2>
-
-    <div class="tile-desc-overlay"></div>
-    <div class="tile-desc">
-        <h3>24/7 FREUNDSCHAFT</h3>
-
-        <p>Andere Regeln und Konventionen als beim regionalen Netzwerken gelten f&uuml;r das globale Networking &uuml;ber
-            Landes und Kulturgrenzen hinweg. Hans Maier kennt sie.</p>
-    </div>
-
-    <div class="option-wrapper">
-        <ul class="option-table">
-            <li class="bookmark-li"><a><span class="small-icon bookmark"></span></a></li>
-            <li class="love-li"><span class="left-option">83</span> <span class="right-option"><a><span
-                    class="small-icon love"></span></a></span></li>
-            <li class="eye-li"><span class="left-option">83</span> <span class="right-option"><a><span
-                    class="small-icon eye"></span></a></span></li>
-            <li class="chat-li"><span class="left-option">22</span> <span class="right-option"><a><span
-                    class="small-icon chat"></span></a></span></li>
-            <li class="share-li"><a><span class="small-icon share"></span></a></li>
-        </ul>
-    </div>
-</div>
-
-<div class="tile brick chefsache2" data-blockid="17">
-    <h2>Firmen</h2>
-
-    <div class="tile-desc-overlay"></div>
-    <div class="tile-desc">
-        <h3>Immobilieninvestoren</h3>
-
-        <p>Sie investieren in Immobilien als Anlage oder zum Weiterverkauf. Dann bauen Sie auf eine Zusammenarbeit mit
-            der Bank.</p>
-
-    </div>
-
-    <div class="option-wrapper">
-        <ul class="option-table">
-            <li class="bookmark-li"><a><span class="small-icon bookmark"></span></a></li>
-            <li class="love-li"><span class="left-option">83</span> <span class="right-option"><a><span
-                    class="small-icon love"></span></a></span></li>
-            <li class="share-li bold"><p>Tel 041/206 39 11</p></li>
-        </ul>
-    </div>
-</div>
+    <!--<div class="option-wrapper">-->
+        <!--<ul class="option-table">-->
+            <!--<li class="love-li"><a href="#"><span class="small-icon love"></span></a></li>-->
+            <!--<li class="star-li"><a href="#"><span class="small-icon star inactive"></span></a></li>-->
+            <!--<li class="eye-li"><span class="left-option">83</span> <span class="right-option"><a href="#"><span-->
+                    <!--class="small-icon eye"></span></a></span></li>-->
+            <!--<li class="chat-li"><span class="left-option">22</span> <span class="right-option"><a href="#"><span-->
+                    <!--class="small-icon chat"></span></a></span></li>-->
+            <!--<li class="share-li"><a href="#"><span class="small-icon share"></span></a></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</div>-->
 
 
-<div class="tile brick chefsache4 detail2" data-blockid="18">
-    <h2>Firmen</h2>
+<!--<div class="tile brick chefsache3 detail" data-blockid="16">-->
 
-    <div class="tile-desc-overlay"></div>
-    <div class="tile-desc">
-        <h3>Zwei Gewinner</h3>
+    <!--<h2>Firmen</h2>-->
 
-        <p>Transport und Logistik. Mit 900 Fahrzeugen ...</p>
-    </div>
+    <!--<div class="tile-desc-overlay"></div>-->
+    <!--<div class="tile-desc">-->
+        <!--<h3>24/7 FREUNDSCHAFT</h3>-->
 
-    <div class="option-wrapper">
-        <ul class="option-table">
-            <li class="bookmark-li"><a><span class="small-icon bookmark"></span></a></li>
-            <li class="love-li"><span class="left-option">83</span> <span class="right-option"><a><span
-                    class="small-icon love"></span></a></span></li>
-            <li class="share-li bold"><p>Tel 041/206 39 11</p></li>
-        </ul>
-    </div>
-</div>
+        <!--<p>Andere Regeln und Konventionen als beim regionalen Netzwerken gelten f&uuml;r das globale Networking &uuml;ber-->
+            <!--Landes und Kulturgrenzen hinweg. Hans Maier kennt sie.</p>-->
+    <!--</div>-->
+
+    <!--<div class="option-wrapper">-->
+        <!--<ul class="option-table">-->
+            <!--<li class="bookmark-li"><a><span class="small-icon bookmark"></span></a></li>-->
+            <!--<li class="love-li"><span class="left-option">83</span> <span class="right-option"><a><span-->
+                    <!--class="small-icon love"></span></a></span></li>-->
+            <!--<li class="eye-li"><span class="left-option">83</span> <span class="right-option"><a><span-->
+                    <!--class="small-icon eye"></span></a></span></li>-->
+            <!--<li class="chat-li"><span class="left-option">22</span> <span class="right-option"><a><span-->
+                    <!--class="small-icon chat"></span></a></span></li>-->
+            <!--<li class="share-li"><a><span class="small-icon share"></span></a></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--<div class="tile brick chefsache2" data-blockid="17">-->
+    <!--<h2>Firmen</h2>-->
+
+    <!--<div class="tile-desc-overlay"></div>-->
+    <!--<div class="tile-desc">-->
+        <!--<h3>Immobilieninvestoren</h3>-->
+
+        <!--<p>Sie investieren in Immobilien als Anlage oder zum Weiterverkauf. Dann bauen Sie auf eine Zusammenarbeit mit-->
+            <!--der Bank.</p>-->
+
+    <!--</div>-->
+
+    <!--<div class="option-wrapper">-->
+        <!--<ul class="option-table">-->
+            <!--<li class="bookmark-li"><a><span class="small-icon bookmark"></span></a></li>-->
+            <!--<li class="love-li"><span class="left-option">83</span> <span class="right-option"><a><span-->
+                    <!--class="small-icon love"></span></a></span></li>-->
+            <!--<li class="share-li bold"><p>Tel 041/206 39 11</p></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</div>-->
+
+
+<!--<div class="tile brick chefsache4 detail2" data-blockid="18">-->
+    <!--<h2>Firmen</h2>-->
+
+    <!--<div class="tile-desc-overlay"></div>-->
+    <!--<div class="tile-desc">-->
+        <!--<h3>Zwei Gewinner</h3>-->
+
+        <!--<p>Transport und Logistik. Mit 900 Fahrzeugen ...</p>-->
+    <!--</div>-->
+
+    <!--<div class="option-wrapper">-->
+        <!--<ul class="option-table">-->
+            <!--<li class="bookmark-li"><a><span class="small-icon bookmark"></span></a></li>-->
+            <!--<li class="love-li"><span class="left-option">83</span> <span class="right-option"><a><span-->
+                    <!--class="small-icon love"></span></a></span></li>-->
+            <!--<li class="share-li bold"><p>Tel 041/206 39 11</p></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</div>-->
 
 
 </div>

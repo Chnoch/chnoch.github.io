@@ -192,123 +192,143 @@
                                 <a href="index.html" class="logout">Logout</a>
                             </div>
                         </div>
+                        <div class=" tile register  " style="margin:5px;">
+                            <div class="content">
 
+                                <h1>Beratung</h1>
 
+                                <p>Falls Sie Fragen haben oder genauere Informationen wünschen, kontaktieren
+                                    Sie
+                                    Ihren Kundenberater. Er wird Ihnen weiterhelfen können.</p>
+                                <a class="button" data-toggle="modal" href="#kundenberater">Kundenberater
+                                    kontaktieren</a>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="tile detailpage-tile-5row2col brick  clear" data-blockid="0">
+                    <div class="tile detailpage-tile-5row3col brick  clear" data-blockid="0">
 
                         <div class="content">
                             <h1>Antrag für eine Hypothek</h1>
 
                             <form>
-                                <h3>Persönliche Angaben</h3>
-                                <label>Eigentumsverhältnis</label>
-                                <select>
-                                    <option>Alleineigentum</option>
-                                    <option>Miteigentum</option>
-                                    <option>Gesamteigentum</option>
-                                    <option>Dritteigentum</option>
-                                </select>
+                                <div class="column-wrapper">
 
-                                <label>Kreditnehmer</label>
-                                <select>
-                                    <option>Einzelperson</option>
-                                    <option>Ehegatten</option>
-                                    <option>Eingetragene Partnerschaft</option>
-                                    <option>Übrige</option>
-                                </select>
+                                    <h3>Persönliche Angaben</h3>
+                                    <label>Eigentumsverhältnis</label>
+                                    <select>
+                                        <option>Alleineigentum</option>
+                                        <option>Miteigentum</option>
+                                        <option>Gesamteigentum</option>
+                                        <option>Dritteigentum</option>
+                                    </select>
 
-                                <label>Anrede</label>
-                                <input type="radio" name="anrede" >
-                                <span>Frau</span>
-                                <input type="radio" name="anrede" checked/>
-                                <span>Herr</span>
+                                    <label>Kreditnehmer</label>
+                                    <select>
+                                        <option>Einzelperson</option>
+                                        <option>Ehegatten</option>
+                                        <option>Eingetragene Partnerschaft</option>
+                                        <option>Übrige</option>
+                                    </select>
 
-                                <label>Vorname</label>
-                                <input type="text">
+                                    <label>Anrede</label>
+                                    <input type="radio" name="anrede">
+                                    <span>Frau</span>
+                                    <input type="radio" name="anrede" checked/>
+                                    <span>Herr</span>
 
-                                <label>Nachname</label>
-                                <input type="text">
+                                    <label>Vorname</label>
+                                    <input type="text" value="Eric">
 
-                                <label>Strasse / Hausnummer</label>
-                                <input type="text">
+                                    <label>Nachname</label>
+                                    <input type="text" value="Kindler">
 
-                                <label>PLZ / Ort</label>
-                                <input type="text">
+                                    <label>Strasse / Hausnummer</label>
+                                    <input type="text" value="Hauptstr. 6">
 
-                                <label>Korrespondenzadresse</label>
-                                <input type="checkbox" checked>
+                                    <label>PLZ / Ort</label>
+                                    <input type="text" value="8000 Zürich">
 
-                                <label>Geburtsdatum</label>
-                                <input type="text">
+                                    <label>Korrespondenzadresse</label>
+                                    <input type="checkbox" checked>
 
-                                <label>Nationalität</label>
-                                <input type="text">
+                                    <label>Geburtsdatum</label>
+                                    <input type="text" value="15.04.1963">
 
-                                <label>Bürgerort</label>
-                                <input type="text">
+                                    <label>Nationalität</label>
+                                    <input type="text" value="Schweiz">
 
-                                <label>US-Steuerpflichtig?</label>
-                                <input type="radio" name="ustax" value="Ja">
-                                <span>Ja</span>
-                                <input type="radio" name="ustax" value="Nein">
-                                <span>Nein</span>
+                                    <label>Bürgerort</label>
+                                    <input type="text" value="Dietikon">
 
-                                <label>Zivilstand</label>
-                                <select>
-                                    <option>Ledig</option>
-                                    <option>Verheiratet</option>
-                                    <option>In eingetragener Partnerschaft</option>
-                                    <option>Gerichtlich getrennt</option>
-                                    <option>Nicht verheiratet</option>
-                                    <option>Verwitwet</option>
-                                </select>
+                                    <label>US-Steuerpflichtig?</label>
+                                    <input type="radio" name="ustax" value="Ja">
+                                    <span>Ja</span>
+                                    <input type="radio" name="ustax" value="Nein" checked>
+                                    <span>Nein</span>
 
-                                <label>Berufliche Stellung</label>
-                                <select>
-                                    <option>Angestellte/r</option>
-                                    <option>Mittleres Kader</option>
-                                    <option>Höheres Kader</option>
-                                    <option>Geschäftsleitungsmitglied</option>
-                                    <option>CEO/Geschäftsführer/in</option>
-                                    <option>Selbstständigerwerbend/e</option>
-                                    <option>Nicht berufstätig</option>
-                                    <option>Hausfrau/-mann</option>
-                                    <option>Rentner/in</option>
-                                    <option>Arbeitslos</option>
-                                    <option>Andere</option>
-                                </select>
+                                    <label>Zivilstand</label>
+                                    <select>
+                                        <option>Ledig</option>
+                                        <option>Verheiratet</option>
+                                        <option>In eingetragener Partnerschaft</option>
+                                        <option>Gerichtlich getrennt</option>
+                                        <option>Nicht verheiratet</option>
+                                        <option>Verwitwet</option>
+                                    </select>
 
-                                <label>Betreibungen in den letzten 3 Jahren</label>
-                                <select>
-                                    <option>Keine</option>
-                                    <option>Erledigt</option>
-                                    <option>Offene</option>
-                                </select>
 
-                                <h3>Einkünfte</h3>
+                                    <label>Berufliche Stellung</label>
+                                    <select>
+                                        <option>Angestellte/r</option>
+                                        <option>Mittleres Kader</option>
+                                        <option>Höheres Kader</option>
+                                        <option>Geschäftsleitungsmitglied</option>
+                                        <option>CEO/Geschäftsführer/in</option>
+                                        <option>Selbstständigerwerbend/e</option>
+                                        <option>Nicht berufstätig</option>
+                                        <option>Hausfrau/-mann</option>
+                                        <option>Rentner/in</option>
+                                        <option>Arbeitslos</option>
+                                        <option>Andere</option>
+                                    </select>
 
-                                <label>Jährliches Einkommen netto</label>
-                                <input type="text">
+                                    <label>Betreibungen in den letzten 3 Jahren</label>
+                                    <select>
+                                        <option>Keine</option>
+                                        <option>Erledigt</option>
+                                        <option>Offene</option>
+                                    </select>
+                                </div>
 
-                                <label>Alimente (Empfänger)</label>
-                                <input type="text">
+                                <div class="column-wrapper">
 
-                                <h3>Ausgaben</h3>
+                                    <h3>Einkünfte</h3>
 
-                                <label>Leasingzinsen/-raten</label>
-                                <input type="text">
+                                    <label>Jährliches Einkommen netto</label>
+                                    <input type="text">
 
-                                <label>Alimente (Leistungspflicht)</label>
-                                <input type="text">
+                                    <label>Alimente (Empfänger)</label>
+                                    <input type="text">
 
-                                <h3>Vermögen</h3>
-                                <label>Wertschriften- und Kontoguthaben</label>
-                                <input type="text">
+                                    <h3>Ausgaben</h3>
+
+                                    <label>Leasingzinsen/-raten</label>
+                                    <input type="text">
+
+                                    <label>Alimente (Leistungspflicht)</label>
+                                    <input type="text">
+
+                                    <h3>Vermögen</h3>
+                                    <label>Wertschriften- und Kontoguthaben</label>
+                                    <input type="text">
+                                </div>
                             </form>
 
-                            <a class="button" href="hypothekantrag2.html">Weiter zu Informationen über die Immobilie</a>
+                            <div>
+                                <a class="button full" href="hypothekantrag2.html">Weiter zu Informationen über die
+                                    Immobilie</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -381,6 +401,46 @@
 <!--container-content-->
 
 </div>
+</div>
+
+
+<div id="kundenberater" class="modal hide fade">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Kundenberater</h3>
+    </div>
+    <div class="modal-body">
+        <div class="left">
+            <img src="img/backgrounds/berater.png">
+
+            <div class="contact">
+                <h3>Christian P. Mueller</h3>
+
+                <div class="contact phone"><b>Telefon</b>: +41 31 012 34 56</div>
+                <div class="contact chats"><b>Chat</b>: online
+                    <div class="green-circle"></div>
+                </div>
+                <div class="contact videochat"><b>Video Chat</b>: online
+                    <div class="green-circle"></div>
+                </div>
+                <div class="contact email"><a href="">E-Mail senden</a></div>
+            </div>
+
+        </div>
+
+        <div class="right">
+            <div class="entry">
+                <span class="bold">Kundenberater: </span> Guten Tag, wie kann ich Ihnen behilflich sein?
+            </div>
+
+            <div class="bottom">
+                <input type="text" placeholder="Bitte geben Sie hier Ihre Nachricht ein">
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="btn" data-dismiss="modal">Schliessen</a>
+    </div>
 </div>
 
 <script type="text/javascript" src="script/base.js"></script>

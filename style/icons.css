@@ -92,6 +92,7 @@
 .net {
 	 background-image: url('../img/backgrounds/net.png');
 	 background-repeat:no-repeat;
+    background-size: 100% 54%;
 }
 
 .comment {

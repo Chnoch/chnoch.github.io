@@ -77,6 +77,7 @@
     height: 375px;
     border: 10px #333 solid;
 }
+
 #videoElement {
     width: 500px;
     height: 375px;
@@ -99,15 +100,27 @@ button, a.button {
     margin: 10px;
 }
 
+a.button.full, button.full {
+    width: 90%;
+
+    text-align: center;
+}
+
 a.orange {
     background: #d38929;
     padding: 20px;
     font-size: 16px;
 }
 
+a.orange-dark {
+    background: #A56B1F;
+    padding: 10px;
+    font-size: 14px;
+}
+
 /* tiles setting */
 .tile {
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
     display: inline-block;
 
     /*width:228px;*/
@@ -124,6 +137,16 @@ a.orange {
 
     margin: 5px;
     padding: 0px;
+
+}
+
+.overview .tile {
+    background-color: #1595d3;
+}
+
+.tile h1.black, .tile h2.black, .tile h2.black a {
+    /*background: rgba(0, 0, 0, 0.3);*/
+    color: #676767;
 }
 
 .tile a {
@@ -219,8 +242,8 @@ label {
 }
 
 .option-wrapper, .tile-option {
-    /*background-color: #cccccc;*/
-    background: rgba(0, 0, 0, 0.3);
+    background-color: #cccccc;
+    /*background: rgba(0, 0, 0, 0.3);*/
     position: absolute;
     bottom: 0;
     /*line-height: 37px;*/
@@ -294,9 +317,9 @@ label {
 .tile .tile-desc-landscape-overlay {
     position: absolute;
     bottom: 0px;
-    opacity: .40;
-    filter: alpha(opacity=40);
-    background: rgb(0, 0, 0);
+    opacity: .20;
+    filter: alpha(opacity=20);
+    background: rgb(9, 9, 9);
     /*The Fallback */
     /*background-color:  rgba(0, 0, 0, 0.6); */
     padding: 10px;
@@ -342,6 +365,9 @@ label {
     background: rgb(255, 255, 255); /* The Fallback */
     /*background-color: rgba(255,255,255,0.7);*/
     padding: 5px 10px;
+
+    -webkit-background-size: 100%;
+    background-size: 100%;
 }
 
 .tile .tile-light-title h3 {
@@ -357,9 +383,9 @@ label {
 .tile.adviser {
     background-image: url("../img/backgrounds/berater.png");
     -webkit-background-size: 55% 100%;
-    background-image-size: 55% 100%;
+    background-size: 55% 100%;
     -ms-background-position-x: 120%;
-    background-position-x: 120%;
+    background-position: 122%;
 }
 
 .tile.video {
@@ -412,9 +438,8 @@ label {
 
 .tile.privatsache2 {
     /*background-image: url("../img/backgrounds/privatsache2.png");*/
-    background-image: url("../img/backgrounds/privatsache3.png");
-    -webkit-background-size: 100%;
-    background-size: 100%;
+    background-image: url("../img/backgrounds/privatsache3_neu.png");
+
 }
 
 .tile.event2 {
@@ -441,6 +466,10 @@ label {
     background-image: url("../img/backgrounds/products3.jpg");
     -webkit-background-size: 100%;
     background-size: 100%;
+}
+
+.overview .tile.no-background {
+    background-color: initial;
 }
 
 .landscape-tile.event {
@@ -507,7 +536,7 @@ label {
 }
 
 .bank-tile {
-    border: 1px solid transparent;
+    /*border: 1px solid transparent;*/
     background-image: -webkit-gradient(radial, 185px at 98% 98%, 0, 185px at 98% 98%, 100, color-stop(0%, #adcae1), color-stop(100%, #1595d3));
     background-image: -webkit-radial-gradient(185px at 98% 98%, #adcae1, #1595d3);
     background-image: -moz-radial-gradient(185px at 98% 98%, #adcae1, #1595d3);
@@ -868,9 +897,17 @@ label {
 
 .detailpage-tile-5row2col {
     width: 468px;
-    min-height: 1188px;
+    /*min-height: 1188px;*/
     height: auto;
     margin-bottom: 8px;
+}
+
+div.subtext {
+    background-color: #1595d3;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    color: white;
 }
 
 #sign_up {
@@ -1004,7 +1041,7 @@ div.contact {
 }
 
 .modal {
-    width: 900px!important;
+    width: 900px !important;
     margin-left: -350px;
 }
 
@@ -1032,10 +1069,14 @@ div.contact {
     margin: 20px;
 }
 
-.bottom input   {
+.bottom input {
     width: 540px;
 }
 
 .right .entry {
     padding: 10px;
+}
+
+div.address {
+    margin: 20px 0 30px;
 }
