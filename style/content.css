@@ -416,7 +416,8 @@ label {
 }
 
 .tile.tools {
-    background-image: url("../img/backgrounds/aktuell2.png");
+    background-image: url("../img/backgrounds/hypo.jpg");
+    background-position: 0 112px;
 }
 
 .tile.privatsache {
