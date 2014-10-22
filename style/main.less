@@ -213,7 +213,11 @@ div.column-wrapper {
 
 .header-wrapper img {
   position: absolute;
-  clip: rect(0px, 950px, 280px, 0px);
+  clip: rect(0px, 710px, 280px, 0px);
+}
+.header-wrapper img.dashboard {
+  position: absolute;
+  clip: rect(0px, 470px, 280px, 0px);
 }
 
 .header-wrapper2 {
@@ -250,7 +254,7 @@ div.column-wrapper {
   float: right;
   position: absolute;
   top: 0px;
-  left: 900px;
+  left: 660px;
 }
 
 a.load-more-link {
@@ -648,17 +652,25 @@ body {
   background-color: #73B2E4;
   display: none;
   position: absolute;
-  left: 955px;
+  left: 715px;
+}
+
+#search-block.dashboard {
+  left: 475px;
 }
 
 #advice-block {
   background-color: #1595d3;
   display: none;
   position: absolute;
-  left: 1195px;
+  left: 955px;
   color: #ffffff;
   font-size: 16px;
 //  padding: 20px;
+}
+
+#advice-block.dashboard {
+  left: 715px;
 }
 
 #advice-block div {
