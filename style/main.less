@@ -64,8 +64,8 @@
 }
 
 body {
-//  /*font-family: 'Raleway', sans-serif;*/
-//  font-family: arial, helvetica, sans-serif; /*'Futura', sans-serif;*/
+  //  /*font-family: 'Raleway', sans-serif;*/
+  //  font-family: arial, helvetica, sans-serif; /*'Futura', sans-serif;*/
   color: #333;
   font-size: 12px;
 
@@ -215,6 +215,14 @@ div.column-wrapper {
   position: absolute;
   clip: rect(0px, 710px, 280px, 0px);
 }
+
+@media only screen and (max-width: 1024px) {
+  .header-wrapper img {
+    clip: rect(0px, 470px, 280px, 0px);
+  }
+
+}
+
 .header-wrapper img.dashboard {
   position: absolute;
   clip: rect(0px, 470px, 280px, 0px);
@@ -275,11 +283,11 @@ a.load-more-link {
 }
 
 .header-search input[type='text'], .header-search-small input[type='text'] {
-//  background-color: transparent;
-//  border: none;
+  //  background-color: transparent;
+  //  border: none;
   color: #dddddd;
   font-size: 16px;
-//  height: 32px;
+  //  height: 32px;
   font-weight: bold;
   width: 130px;
 }
@@ -317,14 +325,14 @@ div.header-block ul.nav-menu li a {
 .load-more {
   padding-top: 10px;
   padding-bottom: 10px;
-//  background-color: #0093d1;
+  //  background-color: #0093d1;
   border: 1px solid transparent;
-  background-image: -webkit-gradient(radial,185px at 98% 98%,0,185px at 98% 98%,100,color-stop(0%,#adcae1),color-stop(100%,#1595d3));
-  background-image: -webkit-radial-gradient(185px at 98% 98%,#adcae1,#1595d3);
-  background-image: -moz-radial-gradient(185px at 98% 98%,#adcae1,#1595d3);
-  background-image: -o-radial-gradient(185px at 98% 98%,#adcae1,#1595d3);
-  background-image: radial-gradient(185px at 98% 98%,#adcae1,#1595d3);
-  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  background-image: -webkit-gradient(radial, 185px at 98% 98%, 0, 185px at 98% 98%, 100, color-stop(0%, #adcae1), color-stop(100%, #1595d3));
+  background-image: -webkit-radial-gradient(185px at 98% 98%, #adcae1, #1595d3);
+  background-image: -moz-radial-gradient(185px at 98% 98%, #adcae1, #1595d3);
+  background-image: -o-radial-gradient(185px at 98% 98%, #adcae1, #1595d3);
+  background-image: radial-gradient(185px at 98% 98%, #adcae1, #1595d3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -335,14 +343,14 @@ div.header-block ul.nav-menu li a {
 }
 
 .blue {
-//  background-color: #0093d1;
+  //  background-color: #0093d1;
   border: 1px solid transparent;
-  background-image: -webkit-gradient(radial,185px at 98% 98%,0,185px at 98% 98%,100,color-stop(0%,#adcae1),color-stop(100%,#1595d3));
-  background-image: -webkit-radial-gradient(185px at 98% 98%,#adcae1,#1595d3);
-  background-image: -moz-radial-gradient(185px at 98% 98%,#adcae1,#1595d3);
-  background-image: -o-radial-gradient(185px at 98% 98%,#adcae1,#1595d3);
-  background-image: radial-gradient(185px at 98% 98%,#adcae1,#1595d3);
-  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  background-image: -webkit-gradient(radial, 185px at 98% 98%, 0, 185px at 98% 98%, 100, color-stop(0%, #adcae1), color-stop(100%, #1595d3));
+  background-image: -webkit-radial-gradient(185px at 98% 98%, #adcae1, #1595d3);
+  background-image: -moz-radial-gradient(185px at 98% 98%, #adcae1, #1595d3);
+  background-image: -o-radial-gradient(185px at 98% 98%, #adcae1, #1595d3);
+  background-image: radial-gradient(185px at 98% 98%, #adcae1, #1595d3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   color: #fff;
 }
 
@@ -666,11 +674,21 @@ body {
   left: 955px;
   color: #ffffff;
   font-size: 16px;
-//  padding: 20px;
+  //  padding: 20px;
 }
 
 #advice-block.dashboard {
   left: 715px;
+}
+
+@media only screen and (max-width: 1024px) {
+  #search-block {
+    left: 475px;
+  }
+
+  #advice-block {
+    left: 715px;
+  }
 }
 
 #advice-block div {

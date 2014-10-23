@@ -6,6 +6,7 @@
     /*max-width: 1440px;*/
     max-width: 1200px;
 }
+
 #tile-container3 {
     /*max-width: 1440px;*/
     max-width: 960px;
@@ -14,8 +15,6 @@
 #tile-container.dashboard {
     max-width: 960px;
 }
-
-
 
 #tile-container {
     /*border: 1px solid red;*/
@@ -178,10 +177,6 @@ a.orange-dark {
     width: 468px;
 }
 
-.long-landscape-tile {
-    width: 708px!important;
-}
-
 .portrait-tile {
     height: 468px;
 }
@@ -195,6 +190,10 @@ a.orange-dark {
 .featured-tile {
     width: 468px;
     height: 468px;
+}
+
+.long-landscape-tile {
+    width: 708px;
 }
 
 .featured-tile.feature {
@@ -401,6 +400,7 @@ label {
     background-size: 59% 100%;
     -ms-background-position-x: 120%;
     background-position: 122%;
+    background-repeat: no-repeat;
 }
 
 .tile.video {
@@ -418,6 +418,7 @@ label {
 .tile.tools {
     background-image: url("../img/backgrounds/hypo.jpg");
     background-position: 0 112px;
+    background-repeat: no-repeat;
 }
 
 .tile.privatsache {
@@ -455,7 +456,7 @@ label {
 .tile.privatsache2 {
     /*background-image: url("../img/backgrounds/privatsache2.png");*/
     background-image: url("../img/backgrounds/privatsache3_neu.png");
-
+    background-repeat: no-repeat;
 }
 
 .tile.event2 {
@@ -483,6 +484,7 @@ label {
     -webkit-background-size: 100%;
     background-size: 100%;
     background-position: 0px 135px;
+    background-repeat: no-repeat;
 }
 
 .tile.products2.products2-dashboard {
@@ -498,6 +500,7 @@ label {
     background-position-x: right;
     -webkit-background-size: 50% 100%;
     background-size: 50% 100%;
+    background-repeat: no-repeat;
 }
 
 .landscape-tile .tile-desc {
@@ -521,9 +524,14 @@ label {
 .long-landscape-tile .video {
     position: absolute;
     right: 0px;
-    width: 335px;
-    height: 320px;
+    width: 50%;
+    height: 191px;
+    padding-top: 30px;
     background-color: #000000;
+}
+
+.long-landscape-tile .video video {
+    margin-left: 50px;
 }
 
 .content {
@@ -541,6 +549,10 @@ label {
 
 .content .password label {
     font-weight: bold;
+}
+
+.content img.full {
+    width: 100%;
 }
 
 /* banking specific tiles*/
@@ -1064,7 +1076,7 @@ div.contact {
 }
 
 .modal {
-    width: 900px !important;
+    width: 900px;
     margin-left: -350px;
 }
 
@@ -1102,4 +1114,32 @@ div.contact {
 
 div.address {
     margin: 20px 0 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .long-landscape-tile {
+        width: 468px;
+    }
+
+    .long-landscape-tile .video video {
+        margin-left: 0;
+    }
+
+    .modal {
+        width: 90%;
+        margin-left: -45%;
+    }
+
+    .detailpage-tile-5row3col {
+        width: 468px;
+    }
+
+    .detailpage-tile-5row2col {
+        width: 412px;
+    }
+
+    #search-block, #advice-block {
+        display: block!important;
+    }
+
 }
