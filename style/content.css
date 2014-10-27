@@ -1126,8 +1126,11 @@ div.address {
     }
 
     .modal {
+        position: relative;
         width: 90%;
+        height: 90%;
         margin-left: -45%;
+        margin-top: 5%;
     }
 
     .detailpage-tile-5row3col {
