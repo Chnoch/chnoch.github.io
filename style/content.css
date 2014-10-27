@@ -531,7 +531,7 @@ label {
 }
 
 .long-landscape-tile .video video {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .content {
@@ -1133,6 +1133,11 @@ div.address {
         margin-top: 5%;
     }
 
+    .modal-body {
+        max-height: 400px;
+        height: 400px;
+    }
+
     .detailpage-tile-5row3col {
         width: 468px;
     }
@@ -1143,6 +1148,10 @@ div.address {
 
     #search-block, #advice-block {
         display: block!important;
+    }
+
+    .hide-ipad {
+        display: none;
     }
 
 }
