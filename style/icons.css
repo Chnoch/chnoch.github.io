@@ -117,8 +117,10 @@
 }
 
 .chefsache {
-	background-image: url('../img/backgrounds/chefsache.png');
+	background-image: url('../img/backgrounds/building.jpg');
 	background-repeat:no-repeat;
+    background-size: 100%;
+    background-position: 0 79px;
 	cursor:pointer;
 }
 
