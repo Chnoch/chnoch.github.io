@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d66d819-2efe-497b-9da0-857b89e03d33" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="channelsuite.iws" />
@@ -148,10 +147,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="dashboard_antrag.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="dashboard_antrag.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/dashboard_antrag.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6181818" vertical-offset="527" max-vertical-offset="13005">
+                <state vertical-scroll-proportion="0.6200608" vertical-offset="527" max-vertical-offset="13005">
                   <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
                   <folding />
                 </state>
@@ -272,11 +271,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="content.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="content.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style/content.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.30939227" vertical-offset="6814" max-vertical-offset="19958">
-                  <caret line="413" column="15" selection-start-line="413" selection-start-column="15" selection-end-line="413" selection-end-column="15" />
+                <state vertical-scroll-proportion="0.2867036" vertical-offset="6814" max-vertical-offset="19958">
+                  <caret line="412" column="0" selection-start-line="412" selection-start-column="0" selection-end-line="412" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -1004,7 +1003,7 @@
       <workItem from="1414074715263" duration="3878000" />
       <workItem from="1414392117136" duration="4147000" />
       <workItem from="1414488370754" duration="1141000" />
-      <workItem from="1414688664060" duration="305000" />
+      <workItem from="1414688664060" duration="426000" />
     </task>
     <task id="LOCAL-00001" summary="lots of content updates for mortgage process, some style adaptions">
       <created>1412606950477</created>
@@ -1070,11 +1069,15 @@
       <created>1414489206949</created>
       <updated>1414489206949</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updated index page with mobile tile">
+      <created>1414688991688</created>
+      <updated>1414688991688</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103260000" />
+    <option name="totallyTimeSpent" value="103381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1090,10 +1093,11 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16306695" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16341992" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1105,7 +1109,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298279" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1136,7 +1139,8 @@
     <MESSAGE value="ipad adaptions" />
     <MESSAGE value="some more ipad adaptions on customers request" />
     <MESSAGE value="added new image for tile firmen background" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new image for tile firmen background" />
+    <MESSAGE value="updated index page with mobile tile" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated index page with mobile tile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1479,14 +1483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/content.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30939227" vertical-offset="6814" max-vertical-offset="19958">
-          <caret line="413" column="15" selection-start-line="413" selection-start-column="15" selection-end-line="413" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.307693" vertical-offset="8315" max-vertical-offset="11917">
@@ -1521,8 +1517,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard_antrag.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6181818" vertical-offset="527" max-vertical-offset="13005">
+        <state vertical-scroll-proportion="0.6200608" vertical-offset="527" max-vertical-offset="13005">
           <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2867036" vertical-offset="6814" max-vertical-offset="19958">
+          <caret line="412" column="0" selection-start-line="412" selection-start-column="0" selection-end-line="412" selection-end-column="0" />
           <folding />
         </state>
       </provider>
